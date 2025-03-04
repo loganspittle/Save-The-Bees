@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the image
-img = cv2.imread('Pictures/Mite1.jpg')
+# img = cv2.imread('Pictures/Mite1.jpg')
+# img = cv2.imread('Pictures/frame_360.png')
+img = cv2.imread('Pictures/death_march_frames/frame_45.png')
 
 # Convert the image to HSV
 hsv_img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
